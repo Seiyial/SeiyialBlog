@@ -8,7 +8,7 @@ sections:
   path: src/posts
   label: Posts
   create: all
-  match: "**/*.md"
+  match: "**/*.md,*.md"
   new_doc_ext: md
 - type: directory
   path: public
