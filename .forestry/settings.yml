@@ -8,8 +8,7 @@ sections:
   path: posts
   label: Posts
   create: all
-  match: "**/*"
-  exclude: posts.json
+  match: "**/*.md"
   new_doc_ext: ".md"
 - type: directory
   path: public
